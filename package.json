@@ -1,0 +1,21 @@
+{
+  "name": "anime-science-motion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Anime-inspired science storytelling videos built with Remotion.",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "build": "remotion render src/index.ts AnimeScienceIntro out/anime-science-intro.mp4",
+    "still": "remotion still src/index.ts AnimeScienceIntro out/preview.png"
+  },
+  "dependencies": {
+    "@remotion/cli": "latest",
+    "remotion": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "typescript": "latest"
+  }
+}
