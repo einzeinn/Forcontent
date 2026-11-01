@@ -1,0 +1,14 @@
+{
+  "name": "Remotion Video Studio",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "forwardPorts": [
+    3000
+  ],
+  "portsAttributes": {
+    "3000": {
+      "label": "Remotion Studio",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "npm install"
+}
